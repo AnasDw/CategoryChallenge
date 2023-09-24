@@ -62,7 +62,7 @@ const GamePage = () => {
                     <input
                       className="InputBox"
                       type="text"
-                      value={Answer}
+                      // value={Answer}
                       id="Input"
                       placeholder="➢ What you see?"
                       onChange={(e) => {
