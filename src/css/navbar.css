@@ -1,0 +1,27 @@
+
+.gap-{
+   gap: 2px;
+}
+.nav {
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  justify-content: end;
+  overflow: hidden;
+}
+
+.i{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+
+#userPic{
+  background-image: url("../assets//780-7804962_cartoon-avatar-png-image-transparent-avatar-user-image-2-removebg-preview.png");
+}
+#homePic{
+  background-image: url("../assets/pngtree-vector-house-icon-png-image_332900-removebg-preview.png");
+}

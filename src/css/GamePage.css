@@ -1,0 +1,44 @@
+.GamePage {
+  background-position: center center;
+  text-align: center;
+  justify-content: center;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5904f729875233.5608b9a200122.png");
+}
+
+.GameCard-Container {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  border-radius: 12px;
+  margin: 3rem 1rem 3rem 1rem;
+  overflow: hidden;
+}
+.GameCard-Container h1 {
+  margin: 0rem 1rem 0rem 1rem;
+  font-size: 50px;
+}
+.card {
+  width: 100%;
+  background-color: rgb(235, 233, 233);
+  color: black;
+}
+.card-img {
+  border-radius: 9%;
+  margin: 2rem;
+  width: 800px;
+  height: 514px;
+}
+.correct {
+  background-image: url("https://png.pngtree.com/png-vector/20210212/ourmid/pngtree-green-correct-icon-png-image_2912233.jpg");
+}
+.fault {
+  background-image: url();
+}
+.card-icons {
+  margin: 1rem;
+  font-size: 40px;
+}
+
+.margin-right{
+  margin-right: 1rem;
+}

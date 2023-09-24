@@ -1,0 +1,60 @@
+.HomePageImg {
+  background-image: url("https://curvegames.com/wp-content/uploads/2021/10/Games-header-1.jpg");
+  border-radius: 12px;
+  box-shadow: rgba(8, 7, 2, 0.428) 10px 10px 8px;
+}
+.container {
+  background-color: rgba(46, 36, 36, 0.038);
+}
+.Img-container {
+  height: 700px;
+  width: 50%;
+  margin: 1rem 1rem 1rem 1rem;
+}
+.Game-container {
+  text-align: center;
+}
+.Game-container h1 {
+  font-size: 50px;
+  color: #383069ce;
+}
+.Home-style {
+  background-color: rgba(255, 255, 255, 0.355);
+}
+.full-width-height {
+  width: 100%;
+  height: 100vmin;
+}
+.form {
+  color: #5a96b0;
+  font-size: large;
+  gap: 1rem;
+}
+.InputBox {
+  box-shadow: #5a96b0 10px 10px 8px;
+  opacity: 0.7;
+  text-align: center;
+  border-radius: 16px;
+  border: 2px solid #542350;
+  height: 60px;
+}
+.icon {
+  font-size: larger;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  background-color: #f1c40f;
+  overflow: hidden;
+}
+.icon:hover {
+  background-color: #000000;
+  transition: 0.8s;
+}
+
+.icon div:hover {
+  transition: 1.5s;
+  transform: perspective(1500px) translateZ(200px) translateY(-30px);
+
+}
