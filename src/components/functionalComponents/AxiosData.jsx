@@ -1,6 +1,4 @@
-import axios from "axios";
 import { createClient } from "pexels";
-import { Navigate } from "react-router-dom";
 
 const client = createClient(
   "Pzwyky7IsQkEDGXHvJel9tQaT7g2HhbTkvZK739bPqEZZ9vQCZZN4Vu9"
