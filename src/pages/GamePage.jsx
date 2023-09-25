@@ -13,7 +13,7 @@ const GamePage = () => {
   const [Correct, setCorrect] = useState(0);
   const [Fault, setFault] = useState(0);
   const [Img, setImg] = useState();
-  const [Answer, setAnswer] = useState();
+  const [Answer, setAnswer] = useState("");
 
   useEffect(() => {
     setAnswer("");
@@ -62,7 +62,7 @@ const GamePage = () => {
                     <input
                       className="InputBox"
                       type="text"
-                      // value={Answer}
+                      value={Answer}
                       id="Input"
                       placeholder="➢ What you see?"
                       onChange={(e) => {
