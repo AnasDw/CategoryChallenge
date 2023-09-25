@@ -1,10 +1,10 @@
-import { createClient } from "pexels";
+// import createClient  from "pexels";
 import React from "react";
 
 
-const client = createClient(
-  "Pzwyky7IsQkEDGXHvJel9tQaT7g2HhbTkvZK739bPqEZZ9vQCZZN4Vu9"
-);
+// const client = createClient(
+//   "Pzwyky7IsQkEDGXHvJel9tQaT7g2HhbTkvZK739bPqEZZ9vQCZZN4Vu9"
+// );
 
 let counter = 1;
 
@@ -15,10 +15,10 @@ export function CreateAxiosRequest(SelectedCategory, funcToUse) {
   ) {
     return false;
   }
-  client.photos
-    .search({ query: SelectedCategory, per_page: counter, page: 3 })
-    .then((response) => {
-      if (response.total_results) funcToUse(response.photos[0]);
-      counter++;
-    });
+  // client.photos
+  //   .search({ query: SelectedCategory, per_page: counter, page: 3 })
+  //   .then((response) => {
+  //     if (response.total_results) funcToUse(response.photos[0]);
+  //     counter++;
+  //   });
 }
