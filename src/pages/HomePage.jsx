@@ -6,7 +6,10 @@ import WelcomeComponent from "../components";
 const HomePage = () => {
   return (
     <>
-      <div className="flex Home-style flex-row full-width-height"> </div>
+    <div> asdasdasdsadasdasd </div>
+      {/* <div className="flex Home-style flex-row full-width-height">
+        <WelcomeComponent />
+      </div> */}
     </>
   );
 };
