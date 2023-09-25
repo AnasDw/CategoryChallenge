@@ -2,6 +2,7 @@ import HomePage, {GamePage } from './pages'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ShearedLayOut } from './components';
 import LoginPage from './pages/LoginPage';
+import React from "react";
 
 
 const router = createBrowserRouter([
