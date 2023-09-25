@@ -57,7 +57,7 @@ const GamePage = () => {
                 className="card-img background-noRepeat-cover GamePage"
               ></div>
               <div className="flex flex-col margin-right">
-                {/* <div className="flex flex-row form">
+                <div className="flex flex-row form">
                   <label className="flex flex-row form">
                     <input
                       className="InputBox"
@@ -79,8 +79,7 @@ const GamePage = () => {
                       🗳️
                     </div>
                   </label>
-                </div> */}
-
+                </div>
                 <div className="card-icons">✔️ ---- {Correct}</div>
                 <div className="card-icons">❌ ---- {Fault}</div>
               </div>
