@@ -1,10 +1,17 @@
-// import createClient  from "pexels";
 import React from "react";
 
 
-// const client = createClient(
-//   "Pzwyky7IsQkEDGXHvJel9tQaT7g2HhbTkvZK739bPqEZZ9vQCZZN4Vu9"
-// );
+
+
+
+
+import { createClient } from "pexels";
+
+
+const client = createClient(
+  "Pzwyky7IsQkEDGXHvJel9tQaT7g2HhbTkvZK739bPqEZZ9vQCZZN4Vu9"
+);
+
 
 let counter = 1;
 
