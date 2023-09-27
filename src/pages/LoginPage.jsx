@@ -1,4 +1,3 @@
-import React from 'react'
 import "/src/css/index.css"
 import "../css/homePage.css";
 

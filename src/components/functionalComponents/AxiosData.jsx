@@ -1,8 +1,4 @@
-import React from "react";
 import axios from "axios";
-
-const API_KEY = "Pzwyky7IsQkEDGXHvJel9tQaT7g2HhbTkvZK739bPqEZZ9vQCZZN4Vu9";
-const API_URL = "https://api.pexels.com/v1/search";
 
 let counter = 1;
 
@@ -15,9 +11,9 @@ export function CreateAxiosRequest(SelectedCategory, funcToUse) {
   }
 
   axios
-    .get(API_URL, {
+    .get(import.meta.env.VITE_API_URL, {
       headers: {
-        Authorization: API_KEY,
+        Authorization:import.meta.env.VITE_API_KEY,
       },
       params: {
         query: SelectedCategory,

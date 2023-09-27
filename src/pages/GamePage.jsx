@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "../css/GamePage.css";
 import "../css/index.css";
 import { useParams } from "react-router-dom";

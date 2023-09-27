@@ -1,13 +1,12 @@
 import "../../css/index.css";
 import "../../css/homePage.css";
 
-import { useState, React } from "react";
-import { CreateAxiosRequest } from "../functionalComponents/AxiosData"; 
+import { useState } from "react";
+import { CreateAxiosRequest } from "../functionalComponents/AxiosData";
 import { useNavigate } from "react-router-dom";
 
 const WelcomeComponent = () => {
   const [Category, setCategory] = useState();
-  const [Response, setResponse] = useState();
   const [ValidCategory, setValidCategory] = useState(false);
 
   const navigate = useNavigate();
@@ -47,9 +46,7 @@ const WelcomeComponent = () => {
                 handleClick();
               }}
             >
-            <div>
-              🚀
-            </div>
+              <div>🚀</div>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../css/index.css";
 import "../../css/navbar.css";
 import "../../css/GamePage.css";
